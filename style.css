@@ -52,3 +52,41 @@ body{
 .step1 input {
     border-radius: 5px;
 }
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boxes h6 {
+    color:gray; 
+}
+
+.boxes img{
+    left:1px;
+}
+
+.box1 {
+    border: purple 1px solid;
+    padding: 40px;
+    border-radius: 8px;
+}
+.box2 {
+    border: purple 1px solid;
+    padding: 40px;
+    border-radius: 8px;
+}
+.box3 {
+    border: purple 1px solid;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.step2-button1{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
