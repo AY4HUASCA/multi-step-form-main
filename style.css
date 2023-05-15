@@ -85,8 +85,45 @@ body{
     border-radius: 8px;
 }
 
+.step2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.scroll button{
+    border: lightgray 4px solid;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+}
+
+.dugmad{
+    position: relative;
+}
+
 .step2-button1{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    position: absolute;
+    left:148px;
+    bottom:2px;
+}
+
+.step2-button2{
+    background-color: rgb(57, 57, 204);
+    border-radius:6px;
+    padding: 15px 30px 15px 30px;
+    position: absolute;
+    right: 148px;
+    bottom:2px;
+    cursor: pointer;  
 }
